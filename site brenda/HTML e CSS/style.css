@@ -3,8 +3,9 @@
 padding:0px;
 font-family: Arial, Helvetica, sans-serif;}
 
+
 body>header {
-    background-color: rgb(4, 4, 206);
+    background-color: rgb(31, 46, 96);
     color:white;
     height:250px;
     font-size: 2em;
@@ -12,23 +13,36 @@ body>header {
     padding-top: 20px;
     margin-bottom: 20px;
 }
+body>header>img {
+    width: 100px;
+    height:100px;
+}
 
 #wapp {
+    font-size: 18px;
     text-decoration: none;
     color:white;
     background-color: rgb(13, 153, 13);
     padding:20px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+body>main {
+    background-color: bisque;
+    height:620px;
 }
 
 body>main>h1 {
-    margin-top: 25px;
+    margin-top: -40px;
     text-align: center;
     font-size: 1.6em;
+    padding-top: 78px;
 }
 body>main>div {
     text-align: justify;
-    margin:5px 20px;
+    margin:10px 20px;
     text-indent: 10px;
+    
 }
 
 main>h2 {
@@ -40,9 +54,8 @@ main>h2 {
 main>ul {
     margin: 5px 25px;
 }
-
-footer{
-    margin:40px 0px;
+article {
+    text-align: center;
 }
 
 footer>ul{
@@ -51,5 +64,29 @@ footer>ul{
 }
 footer>div {
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
+}
+.container {
+    display: flex;
+}
+
+footer>main>form>div {
+ font-size: 15px;
+}
+footer>main>form>p {
+    margin-top: 10px;
+}
+
+footer>div {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+footer {
+    margin-top: ;
+    background-color: rgb(31, 46, 96);
+    padding:20px 0px;
+    height: 230px;
+    color:white;
 }
