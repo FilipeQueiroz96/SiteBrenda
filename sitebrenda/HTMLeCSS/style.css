@@ -1,0 +1,136 @@
+@charset "UTF-8";
+*{margin:0px;
+padding:0px;
+font-family: Arial, Helvetica, sans-serif;}
+
+/* cabecalho */
+body>header {
+    background-image: linear-gradient(to bottom, rgb(6, 42, 115), rgb(2, 15, 39));
+    height:180px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body>header>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body>header>img {
+    width: 350px;
+    height:350px;
+}
+/* fim do cabecalho */
+body>main {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.398) inset;
+    padding-bottom: 30px;
+}
+
+body>main>content {
+    display: flex;
+    justify-content: end;}
+
+body>main>content>img {
+    width: 220px;
+    padding-right: 8px;
+}
+
+body>main>content>div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-left: 35px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+body>main>h1 {
+    margin-top: -40px;
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 78px;
+}
+body>main>div {
+    text-align: justify;
+    margin:10px 20px;
+    text-indent: 10px;
+    
+}
+
+main>h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+body>main>ul {
+    height:200px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+body>main>ul>li {
+    background-image: linear-gradient(to top, rgb(6, 42, 115), rgb(2, 15, 39));
+    border: 1px solid;
+    font-size: 1em;
+    list-style-type: none;
+    height:80px;
+    width:160px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.529);
+    border: 0.5px solid black;
+}
+
+article {
+    text-align: center;
+}
+
+footer {
+    background-image: linear-gradient(to top, rgb(6, 42, 115), rgb(2, 15, 39));
+    color: white;
+}
+
+footer>h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer>main>ul {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer>main>ul>li{
+    margin: 1.5px;
+}
+footer>div {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    
+}
+
+footer>form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; 
+    align-items: center; 
+}
+
+footer>form>input{
+    margin-top: 15px;
+    width:100px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+}
+
+
