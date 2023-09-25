@@ -56,9 +56,41 @@ body>main>h1 {
     padding-top: 78px;
 }
 body>main>div {
-    margin:10px 20px;
-    font-size: 1.2em;  
+    margin:25px 20px;
+    font-size: 1.2em; 
+    text-align: center;
 }
+
+body>main>h2 {
+    text-align: center;
+   margin-bottom: 15px;
+}
+
+body>main>h3{
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/* ---------------------LISTAS-------------------------- */
+body>main>ul{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 28px;
+    padding-right: 10px;
+    list-style-type: square;
+    margin: 10px;
+
+}
+
+body>main>ul>li{
+    margin:0.6px 0px 0.6px 0px;
+}
+    
+/* --------------------FIM LISTAS---------------------------- */
+
+
 
 /* -------------------   INICIO RODAPÉ   ------------------- */
 
