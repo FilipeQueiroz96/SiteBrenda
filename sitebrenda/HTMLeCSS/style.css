@@ -9,7 +9,7 @@ font-family: 'Poppins', sans-serif;
 
 body>header {
     background-image: linear-gradient(to bottom, rgb(6, 42, 115), rgb(2, 15, 39));
-    height:180px;
+    height:145px;
     padding-top: 20px;
     display: flex;
     align-items: center;
@@ -26,14 +26,13 @@ body>header>img {
 body>main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.398) inset;
     padding-bottom: 30px;
-    background-image: url(../imagens/SiteBrenda.png);
-    
-   
+    background-image: url(../imagens/fundomarmore5.jpeg);
 }
 
 body>main>content {
     display: flex;
-    justify-content: end;}
+    justify-content: end;
+}
 
 body>main>content>img {
     width: 220px;
@@ -73,19 +72,29 @@ body>main>h3{
 
 
 /* ---------------------LISTAS-------------------------- */
+body>main>ul>h3{
+  text-align: center;
+  padding: 10px 0px 15px 0px;
+}
+
 body>main>ul{
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     padding-left: 28px;
     padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     list-style-type: square;
-    margin: 10px;
+    margin:25px 10px 25px 10px;
+    background-color: rgba(135, 129, 129, 0.171);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.341);
 
 }
 
 body>main>ul>li{
-    margin:0.6px 0px 0.6px 0px;
+    margin:0.9px 0px 0.9px 0px;
+
 }
     
 /* --------------------FIM LISTAS---------------------------- */
